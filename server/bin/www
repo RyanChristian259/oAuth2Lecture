@@ -3,7 +3,7 @@
 /**
  * Module dependencies.
  */
-
+// var session = require('express-session');
 var app = require('../app');
 var debug = require('debug')('_example:server');
 var http = require('http');
@@ -89,3 +89,4 @@ function onListening() {
   debug('Listening on ' + bind);
   console.log('Listening on ' + bind);
 }
+
